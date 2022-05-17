@@ -1,0 +1,31 @@
+// Author: Nathan Crosby
+// Version: 0.0
+// Date: 20210108
+// ChangeLog:
+//     0.0 -> initial creation
+
+#ifndef HYPERPARAM_H
+#define HYPERPARAM_H
+
+namespace Hype {
+  // This is going to be the class to define the hyperparameter use in the
+  // FastMem project or others eventually
+  class HyperParam {
+    // private variables first
+    private:
+      double value;
+      int min, max, divisor;
+
+    // Now the interface
+    public:
+      HyperParam();
+      HyperParam(int mi, int ma, int div);
+      void nextRand();
+      void nextRand(double m);
+      double getValue();
+      int getMin();
+      int getMax();
+  }; // end HyperParam class
+} // end namespace Hype
+
+#endif

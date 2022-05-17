@@ -1,0 +1,12 @@
+Author: Nathan Crosby
+Version: 1.0.0
+Date: 20210301
+ChangeLog:
+     0.0 -> initial creation
+     1.0.0 -> main difference is changing to use Kelley Criterion instead
+              of the threshBuy and threshSell
+
+
+This is the library that supported the work of Nathan Crosby and Dr. Christopher
+Crick on the paper, "User Defined Interpretability of Machine Learning 
+Algorithms" 
